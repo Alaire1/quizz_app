@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import hi from './img/hi.png';
-import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
        <h1>Welcome</h1>
        <img src={hi} className="hi" alt="hi" />
        <div>
-       <Button variant="light">Light</Button>{' '}
+        <button className="button" >Go to the Quiz!</button>
        </div>
       </header>
 
