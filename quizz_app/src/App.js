@@ -12,7 +12,7 @@ function App() {
        <h1>Welcome</h1>
        <img src={hi} className="hi" alt="hi" />
        <div>
-       <Button variant="primary">Primary</Button>{' '}
+       <Button variant="light">Light</Button>{' '}
        </div>
       </header>
 
