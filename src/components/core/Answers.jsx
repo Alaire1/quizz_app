@@ -19,7 +19,7 @@ class Answers extends Component {
             let elem = e.currentTarget;
             let { correct, increaseScore } = this.props;
             let answer = Number(elem.dataset.id);
-            let updatedClassNames = this.state.classNames;
+            let updatedClassNames = ['', '', '', ''];
 
             if(answer === correct){
                 updatedClassNames[answer-1] = 'right';
@@ -34,18 +34,13 @@ class Answers extends Component {
                 
             })
 
-            this.props.showButton();       
-            var myTime = setTimeout(() => {
-                this.clearClasses();
-                //console.log("IN SET Timeout")
-            }, 5000);
+            this.props.showButton();
         }
     }
     clearClasses(){
         this.setState({
             classNames: ['', '', '', '']
         })
-        
     }
     render() {
         let { answers } = this.props;
@@ -61,17 +56,18 @@ class Answers extends Component {
             <div id="answers">
                 <ul>
                     <li onClick={this.checkAnswer} 
-                        className={classNames[0]} data-id="1">
-                    <span>A</span> 
+                        className={this.props.isButtonShown ? classNames[0] : ""}
+                         data-id="1">
+                    <span>A</span>
                     <p>{answers[0]}</p></li>
 
                     <li onClick={this.checkAnswer} 
-                        className={classNames[1]} data-id="2">
+                        className={this.props.isButtonShown ? classNames[1] : ""} data-id="2">
                     <span>B</span> 
                     <p>{answers[1]}</p></li>
 
                     <li onClick={this.checkAnswer} 
-                        className={classNames[2]} data-id="3">
+                        className={this.props.isButtonShown ? classNames[2] : ""} data-id="3">
                     <span>C</span> 
                     <p>{answers[2]}</p></li>
                 </ul>

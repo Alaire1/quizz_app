@@ -98,6 +98,7 @@ class Main extends Component {
                     answers={answers} 
                     correct={correct} 
                     showButton={this.handleShowButton} 
+                    isButtonShown={showButton}
                     isAnswered={questionAnswered} 
                     increaseScore={this.handleIncreaseScore}
                 />

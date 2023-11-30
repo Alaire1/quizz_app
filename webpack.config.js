@@ -7,6 +7,9 @@ module.exports = {
         path: path.resolve(__dirname, 'build'),
         filename: 'index_bundle.js'
     },
+    optimization: {
+        minimize: false
+    },
 
     module: {
         rules: [
@@ -23,6 +26,7 @@ module.exports = {
                             name: '[name].[ext]',
                             outputPath: 'images/', // This is where your images will be placed in the build folder
                         },
+                        
                     },
                 ],
             },

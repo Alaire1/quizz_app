@@ -96,6 +96,7 @@ header .header_logo_title {
     width: 100%;
     display: flex;
     margin-bottom: 30px;
+    border-color: #c986d3;
     transition: color .3s ease, border-color .3s ease, transform .3s ease;
     cursor: pointer;
 }
