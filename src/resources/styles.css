@@ -229,7 +229,11 @@ header .header_logo_title {
     background-color: #a86ed5;
 }
 
-
+.petHi {
+    position: absolute;
+    left: 70%;
+    bottom: 1%;
+}
 /*====================
         FOOTER
 ======================*/

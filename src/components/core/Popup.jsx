@@ -63,10 +63,7 @@ class Popup extends Component {
                         <div className="ml-5 col-md-10 col-10">
                             <div className="popup">
                                 <h1>{title}</h1>
-                                <div>
-                                    <p dangerouslySetInnerHTML={this.createMarkup(text)} />
-                                    <img src={petImage} alt="Pet Image" width='100px' ></img>
-                                </div>
+                                <p dangerouslySetInnerHTML={this.createMarkup(text)} />
                                 <span onClick={this.popupHandle}>
                                     <MyButton
                                         text={buttonText}
@@ -76,6 +73,7 @@ class Popup extends Component {
                                 </span>
                             </div>
                         </div>
+                        <img src={petImage} alt="Pet Image" width='300px' className='petHi'></img>
                     </div>
                 </div>
             </Fade>
