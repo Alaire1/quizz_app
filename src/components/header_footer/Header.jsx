@@ -34,7 +34,7 @@ function DenseAppBar(props) {
               <div class="col-md-9 mt-3">
                 <h4 className="font_righteous footer_logo_venue"> Cyber Quiz</h4>
               </div>
-              <div class="col-md-2 d-none d-lg-block">
+              <div class="col-md-2 d-none d-md-block">
                 <img src={pcImage} alt="pcImage" width='60rem'></img>
               </div>
             </div>
