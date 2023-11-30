@@ -8,7 +8,7 @@ class Main extends Component {
         super(props);
         this.state = {
             count: 0,
-            total: data.length,
+            total: 10,
             showButton: false,
             questionAnswered: false,
             score: 0,
@@ -30,8 +30,7 @@ class Main extends Component {
             question: data[count].question,
             answers: [  data[count].answers[0], 
                         data[count].answers[1], 
-                        data[count].answers[2], 
-                        data[count].answers[3] 
+                        data[count].answers[2]
                     ],
             correct: data[count].correct,
             count: this.state.count + 1
