@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
+import pcImage from '../../../images/pc.png'; // Import the image
 
 
 const styles = {
@@ -14,11 +15,11 @@ const styles = {
     marginLeft: -18,
     marginRight: 10,
   },
-  color:{
+  color: {
     backgroundColor: '#734399',
   },
-  whiteColor:{
-    color:'#fff',
+  whiteColor: {
+    color: '#fff',
   }
 };
 
@@ -26,10 +27,17 @@ function DenseAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static" className={classes.color}> 
+      <AppBar position="static" className={classes.color}>
         <Toolbar variant="dense">
           <Typography className={classes.whiteColor}>
-          <h4 className="font_righteous footer_logo_venue"> Cyber Quiz</h4>
+            <div class="row">
+              <div class="col-md-9 mt-3">
+                <h4 className="font_righteous footer_logo_venue"> Cyber Quiz</h4>
+              </div>
+              <div class="col-md-2 d-none d-lg-block">
+                <img src={pcImage} alt="pcImage" width='60rem'></img>
+              </div>
+            </div>
           </Typography>
         </Toolbar>
       </AppBar>
