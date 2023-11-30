@@ -73,7 +73,7 @@ class Popup extends Component {
                                 </span>
                             </div>
                         </div>
-                        <img src={petImage} alt="Pet Image" width='300px' className='petHi'></img>
+                        <img src={petImage} alt="Pet Image" className='petHi'></img>
                     </div>
                 </div>
             </Fade>
