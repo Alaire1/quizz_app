@@ -26,16 +26,17 @@ class Main extends Component {
     }
 
     insertData(count) {
-        this.setState({
-            question: data[count].question,
-            answers: [  data[count].answers[0], 
-                        data[count].answers[1], 
-                        data[count].answers[2]
-                    ],
-            correct: data[count].correct,
-            count: this.state.count + 1
-        });
-    }
+        let random = Math.floor(Math.random() * (data.length + 1))
+                this.setState({
+                    question: data[random].question,
+                    answers: [  data[random].answers[0], 
+                                data[random].answers[1], 
+                                data[random].answers[2]
+                            ],
+                    correct: data[random].correct,
+                    count: this.state.count + 1
+                });
+            }
 
 
     handleShowButton() {
