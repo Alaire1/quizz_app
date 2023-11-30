@@ -23,7 +23,7 @@ class Popup extends Component {
         if(time === 'start'){
             this.setState({
                 time: 'end',
-                title: 'Congratulations!',
+                title: this.props.score >= 5 ? '🥰Congratulations!' : '😓Ohh sorry!',
                 buttonText: 'Restart'
             });
 
@@ -41,12 +41,13 @@ class Popup extends Component {
     }
     
     componentWillReceiveProps(nextProps) {
+        const score = nextProps.score;
+        const total = nextProps.total;
+    
         this.setState({
-            text: 'You have completed the quiz. <br /> You got: <strong>' + this.props.score + 
-            '</strong> out of <strong>' + 
-            this.props.total +
-            '</strong> questions right.'
-        })
+            title: score >= 5 ? '🥰Congratulations!' : '😓Ohh sorry!',
+            text: `You have completed the quiz. <br /> You got: <strong>${score}</strong> out of <strong>${total}</strong> questions right.`,
+        });
     }
 
     
