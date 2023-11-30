@@ -24,7 +24,6 @@ class Main extends Component {
         let { count } = this.state;
         this.insertData(count);
     }
-
     insertData(count) {
         let random = Math.floor(Math.random() * (data.length + 1))
                 this.setState({
@@ -36,8 +35,6 @@ class Main extends Component {
                     correct: data[random].correct,
                     count: this.state.count + 1
                 });
-            }
-
 
     handleShowButton() {
         this.setState({
@@ -53,6 +50,7 @@ class Main extends Component {
             this.setState({
                 displayPopup: 'flex'
             });
+        
         } else {
             this.insertData(count);
             this.setState({
