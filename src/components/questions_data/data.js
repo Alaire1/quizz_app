@@ -1,6 +1,6 @@
 export default [
     {
-        question: 'hat does the term "Phishing" refer to in cybersecurity?',
+        question: 'What does the term "Phishing" refer to in cybersecurity?',
         answers: [
             'A method of encrypting data',
             'A social engineering attack to trick individuals into revealing sensitive information',
