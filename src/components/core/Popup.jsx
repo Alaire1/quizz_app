@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import MyButton from '../util/MyButton.jsx';
 import Fade from 'react-reveal/Fade';
+import petImage from '../../../images/pet_hi.png'; // Import the image
+
 class Popup extends Component {
-    
     constructor(props) {
         super(props);
         
@@ -62,7 +63,10 @@ class Popup extends Component {
                         <div className="ml-5 col-md-10 col-10">
                             <div className="popup">
                                 <h1>{title}</h1>
-                                <p dangerouslySetInnerHTML={this.createMarkup(text)} />
+                                <div>
+                                    <p dangerouslySetInnerHTML={this.createMarkup(text)} />
+                                    <img src={petImage} alt="Pet Image" width='100px' ></img>
+                                </div>
                                 <span onClick={this.popupHandle}>
                                     <MyButton
                                         text={buttonText}
