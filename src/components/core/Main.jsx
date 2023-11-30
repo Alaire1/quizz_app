@@ -35,8 +35,9 @@ class Main extends Component {
                     correct: data[random].correct,
                     count: this.state.count + 1
                 });
+    }
 
-    handleShowButton() {
+    handleShowButton(){
         this.setState({
             showButton: true,
             questionAnswered: true
