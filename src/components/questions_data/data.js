@@ -290,6 +290,63 @@ export default [
         correct: 1
     },
     {
-        question: "What is the purpose of 'security tokens
-    }
-]
+        question: "What is the purpose of 'security tokens' in multi-factor authentication?",
+        answers: [
+            "To generate one-time passwords",
+            "To encrypt stored data",
+            "To grant unlimited access to all users",
+            "To boost internet speed"
+        ],
+        correct: 0
+    },
+    {
+        question: "How does 'security information and event management (SIEM)' contribute to cybersecurity?",
+        answers: [
+            "By encrypting sensitive data during transmission",
+            "By analyzing and correlating security events across an organization's network",
+            "By creating complex passwords",
+            "By simulating real-world cyber attacks"
+        ],
+        correct: 1
+    },
+    {
+        question: "What does 'zero-day vulnerability' refer to in cybersecurity?",
+        answers: [
+            "A vulnerability that exists for zero days",
+            "A software vulnerability that is unknown to the vendor",
+            "A security policy with no vulnerabilities",
+            "Blocking access to certain websites"
+        ],
+        correct: 1
+    },
+    {
+        question: "How does 'security awareness' contribute to overall cybersecurity?",
+        answers: [
+            "By blocking unauthorized access",
+            "By educating users about potential cybersecurity threats and best practices",
+            "By enhancing internet speed",
+            "By analyzing website traffic patterns"
+        ],
+        correct: 1
+    },
+    {
+        question: "What is the role of 'security assessments' in information security?",
+        answers: [
+            "To analyze website traffic patterns",
+            "To identify and assess potential vulnerabilities and risks",
+            "To create secure email accounts",
+            "To provide unlimited access to all users"
+        ],
+        correct: 1
+    },
+    {
+        question: "How does 'machine learning' contribute to cybersecurity?",
+        answers: [
+            "By enhancing internet speed",
+            "By simulating real-world cyber attacks",
+            "By automating the detection of unusual patterns and potential threats",
+            "By blocking access to certain websites"
+        ],
+        correct: 2
+    },
+];
