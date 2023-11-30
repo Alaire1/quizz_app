@@ -25,7 +25,7 @@ class Main extends Component {
         this.insertData(count);
     }
     insertData(count) {
-        let random = Math.floor(Math.random() * (data.length))
+        let random = Math.floor(Math.random() * (data.length + 1))
                 this.setState({
                     question: data[random].question,
                     answers: [  data[random].answers[0], 
