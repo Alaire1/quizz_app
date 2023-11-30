@@ -87,7 +87,7 @@ export default [
             "To encrypt sensitive data",
             "To track the physical location of network devices"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What is the significance of a 'security audit'?",
@@ -107,7 +107,7 @@ export default [
             "Creating unique passwords for each login",
             "Implementing two-factor authentication"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "How does a 'proxy server' contribute to cybersecurity?",
@@ -117,7 +117,7 @@ export default [
             "By encrypting all data transmitted over a network",
             "By providing antivirus protection"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What is the purpose of 'security patches'?",
@@ -127,15 +127,15 @@ export default [
             "To enhance internet connectivity",
             "To initiate a system backup"
         ],
-        correct: 0
+        correct: 1
     },
     {
         question: "How does a 'sandbox' contribute to cybersecurity?",
         answers: [
             "By creating a secure play area for developers",
             "By blocking access to certain websites",
-            "By detecting and removing malware",
-            "By simulating a controlled environment for testing untrusted programs"
+            "By simulating a controlled environment for testing untrusted programs",
+            "By detecting and removing malware"
         ],
         correct: 3
     },
@@ -147,7 +147,7 @@ export default [
             "To improve internet speed",
             "To encrypt data during transmission"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "How does a 'token' enhance authentication?",
@@ -157,15 +157,14 @@ export default [
             "By providing unlimited access to all users",
             "By encrypting stored data"
         ],
-        correct: 0
+        correct: 1
     },
     {
         question: "What is the role of 'cryptography' in information security?",
         answers: [
             "To develop secure software applications",
             "To analyze internet traffic patterns",
-            "To store passwords in a secure database",
-            "To protect information through encryption and decryption"
+            "To store passwords in a secure database"
         ],
         correct: 3
     },
@@ -177,7 +176,7 @@ export default [
             "Enhancing network connectivity",
             "Implementing two-factor authentication"
         ],
-        correct: 0
+        correct: 1
     },
     {
         question: "How does 'endpoint security' contribute to overall cybersecurity?",
@@ -187,7 +186,7 @@ export default [
             "By improving internet speed",
             "By encrypting data during transmission"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What is 'pharming' in the context of cybersecurity?",
@@ -197,7 +196,7 @@ export default [
             "A type of firewall configuration",
             "Encrypting sensitive data"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "How does a 'security token' enhance user authentication?",
@@ -207,7 +206,7 @@ export default [
             "By blocking unauthorized access",
             "By encrypting stored data"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What is the primary goal of 'security awareness training'?",
@@ -217,14 +216,13 @@ export default [
             "To create complex passwords",
             "To improve the performance of security software"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "How does 'data masking' contribute to data security?",
         answers: [
             "By completely blocking access to certain websites",
             "By encrypting sensitive data during transmission",
-            "By simulating a controlled environment for testing untrusted programs",
             "By replacing sensitive information with fake or pseudonymous data"
         ],
         correct: 3
@@ -237,7 +235,7 @@ export default [
             "To identify and respond to cybersecurity incidents",
             "To create secure email accounts"
         ],
-        correct: 2
+        correct: 3
     },
     {
         question: "How does 'access control' contribute to information security?",
@@ -247,7 +245,7 @@ export default [
             "By providing antivirus protection",
             "By creating secure user interfaces"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What is the purpose of a 'security policy'?",
@@ -257,7 +255,7 @@ export default [
             "To analyze internet traffic patterns",
             "To fix bugs in software"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "How does 'penetration testing' enhance cybersecurity measures?",
@@ -267,7 +265,7 @@ export default [
             "By improving internet speed",
             "By providing unlimited access to all users"
         ],
-        correct: 0
+        correct: 1
     },
     {
         question: "What does 'security through obscurity' entail?",
@@ -277,7 +275,7 @@ export default [
             "Relying on the secrecy of system design to provide security",
             "A type of intrusion detection system"
         ],
-        correct: 2
+        correct: 3
     },
     {
         question: "How does 'application layer firewall' contribute to network security?",
@@ -287,7 +285,7 @@ export default [
             "By blocking access to certain websites",
             "By encrypting sensitive data during transmission"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What is the purpose of 'security tokens' in multi-factor authentication?",
@@ -297,7 +295,7 @@ export default [
             "To grant unlimited access to all users",
             "To boost internet speed"
         ],
-        correct: 0
+        correct: 1
     },
     {
         question: "How does 'security information and event management (SIEM)' contribute to cybersecurity?",
@@ -307,7 +305,7 @@ export default [
             "By creating complex passwords",
             "By simulating real-world cyber attacks"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What does 'zero-day vulnerability' refer to in cybersecurity?",
@@ -317,7 +315,7 @@ export default [
             "A security policy with no vulnerabilities",
             "Blocking access to certain websites"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "How does 'security awareness' contribute to overall cybersecurity?",
@@ -327,7 +325,7 @@ export default [
             "By enhancing internet speed",
             "By analyzing website traffic patterns"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What is the role of 'security assessments' in information security?",
@@ -337,7 +335,7 @@ export default [
             "To create secure email accounts",
             "To provide unlimited access to all users"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "How does 'machine learning' contribute to cybersecurity?",
@@ -347,7 +345,7 @@ export default [
             "By automating the detection of unusual patterns and potential threats",
             "By blocking access to certain websites"
         ],
-        correct: 2
+        correct: 3
     },
     {
         question: "What is 'cross-site scripting (XSS)' in web security?",
@@ -357,7 +355,7 @@ export default [
             "A method for securing login credentials",
             "A type of firewall configuration"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "How does a 'security token' differ from a 'password' in authentication?",
@@ -367,7 +365,7 @@ export default [
             "A password is more secure than a security token",
             "Both are identical in function"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What is the purpose of a 'security incident response plan'?",
@@ -377,7 +375,7 @@ export default [
             "To create secure email accounts",
             "To block access to certain websites"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What does 'white hat' refer to in the context of hacking?",
@@ -387,7 +385,7 @@ export default [
             "A security policy",
             "A firewall feature"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What is the purpose of 'penetration testing'?",
@@ -397,7 +395,7 @@ export default [
             "To boost internet speed",
             "To create complex passwords"
         ],
-        correct: 1
+        correct: 2
     },
     {
         question: "What does 'cryptography' aim to achieve?",
@@ -407,7 +405,7 @@ export default [
             "To protect information through encryption and decryption",
             "To create secure user interfaces"
         ],
-        correct: 2
+        correct: 3
     },
     {
         question: "What is the primary goal of 'security through obscurity'?",
@@ -417,7 +415,7 @@ export default [
             "Relying on the secrecy of system design to provide security",
             "A type of intrusion detection system"
         ],
-        correct: 2
+        correct: 3
     },
     {
         question: "What is 'social engineering' in the context of information security?",
@@ -427,67 +425,7 @@ export default [
             "Manipulating individuals into divulging confidential information",
             "A type of software development"
         ],
-        correct: 2
-    },
-    {
-        question: "How does 'data masking' contribute to data security?",
-        answers: [
-            "By completely blocking access to certain websites",
-            "By encrypting sensitive data during transmission",
-            "By simulating a controlled environment for testing untrusted programs",
-            "By replacing sensitive information with fake or pseudonymous data"
-        ],
         correct: 3
-    },
-    {
-        question: "What is 'pharming' in the context of cybersecurity?",
-        answers: [
-            "Cultivating cybersecurity professionals",
-            "Redirecting users to fraudulent websites",
-            "A type of firewall configuration",
-            "Encrypting sensitive data"
-        ],
-        correct: 1
-    },
-    {
-        question: "What does 'zero-day vulnerability' refer to in cybersecurity?",
-        answers: [
-            "A vulnerability that exists for zero days",
-            "A software vulnerability that is unknown to the vendor",
-            "A security policy with no vulnerabilities",
-            "Blocking access to certain websites"
-        ],
-        correct: 1
-    },
-    {
-        question: "How does 'security awareness' contribute to overall cybersecurity?",
-        answers: [
-            "By blocking unauthorized access",
-            "By educating users about potential cybersecurity threats and best practices",
-            "By enhancing internet speed",
-            "By analyzing website traffic patterns"
-        ],
-        correct: 1
-    },
-    {
-        question: "What is the role of 'security assessments' in information security?",
-        answers: [
-            "To analyze website traffic patterns",
-            "To identify and assess potential vulnerabilities and risks",
-            "To create secure email accounts",
-            "To provide unlimited access to all users"
-        ],
-        correct: 1
-    },
-    {
-        question: "How does 'machine learning' contribute to cybersecurity?",
-        answers: [
-            "By enhancing internet speed",
-            "By simulating real-world cyber attacks",
-            "By automating the detection of unusual patterns and potential threats",
-            "By blocking access to certain websites"
-        ],
-        correct: 2
     },
     {
         question: "What is 'ransomware'?",
@@ -498,126 +436,5 @@ export default [
             "A firewall feature"
         ],
         correct: 1
-    },
-    {
-        question: "What does 'vulnerability assessment' involve?",
-        answers: [
-            "Identifying weaknesses in a system and assessing potential threats",
-            "Creating secure user interfaces",
-            "Enhancing network connectivity",
-            "Implementing two-factor authentication"
-        ],
-        correct: 0
-    },
-    {
-        question: "How does 'endpoint security' contribute to overall cybersecurity?",
-        answers: [
-            "By securing physical entry points to a building",
-            "By protecting network devices such as computers and mobile devices",
-            "By improving internet speed",
-            "By encrypting data during transmission"
-        ],
-        correct: 1
-    },
-    {
-        question: "What is the purpose of a 'security policy'?",
-        answers: [
-            "To enhance internet speed",
-            "To establish guidelines and practices for ensuring information security",
-            "To analyze internet traffic patterns",
-            "To fix bugs in software"
-        ],
-        correct: 1
-    },
-    {
-        question: "How does 'penetration testing' enhance cybersecurity measures?",
-        answers: [
-            "By simulating real-world cyber attacks to identify vulnerabilities",
-            "By encrypting sensitive data during transmission",
-            "By improving internet speed",
-            "By providing unlimited access to all users"
-        ],
-        correct: 0
-    },
-    {
-        question: "What does 'security through obscurity' entail?",
-        answers: [
-            "Blocking access to certain websites",
-            "Encrypting stored data with complex algorithms",
-            "Relying on the secrecy of system design to provide security",
-            "A type of intrusion detection system"
-        ],
-        correct: 2
-    },
-    {
-        question: "How does 'application layer firewall' contribute to network security?",
-        answers: [
-            "By enhancing internet speed",
-            "By regulating traffic based on application-specific rules",
-            "By blocking access to certain websites",
-            "By encrypting sensitive data during transmission"
-        ],
-        correct: 1
-    },
-    {
-        question: "What is the purpose of 'security tokens' in multi-factor authentication?",
-        answers: [
-            "To generate one-time passwords",
-            "To encrypt stored data",
-            "To grant unlimited access to all users",
-            "To boost internet speed"
-        ],
-        correct: 0
-    },
-    {
-        question: "How does 'security information and event management (SIEM)' contribute to cybersecurity?",
-        answers: [
-            "By encrypting sensitive data during transmission",
-            "By analyzing and correlating security events across an organization's network",
-            "By creating complex passwords",
-            "By simulating real-world cyber attacks"
-        ],
-        correct: 1
-    },
-    {
-        question: "What does 'zero-day vulnerability' refer to in cybersecurity?",
-        answers: [
-            "A vulnerability that exists for zero days",
-            "A software vulnerability that is unknown to the vendor",
-            "A security policy with no vulnerabilities",
-            "Blocking access to certain websites"
-        ],
-        correct: 1
-    },
-    {
-        question: "How does 'security awareness' contribute to overall cybersecurity?",
-        answers: [
-            "By blocking unauthorized access",
-            "By educating users about potential cybersecurity threats and best practices",
-            "By enhancing internet speed",
-            "By analyzing website traffic patterns"
-        ],
-        correct: 1
-    },
-    {
-        question: "What is the role of 'security assessments' in information security?",
-        answers: [
-            "To analyze website traffic patterns",
-            "To identify and assess potential vulnerabilities and risks",
-            "To create secure email accounts",
-            "To provide unlimited access to all users"
-        ],
-        correct: 1
-    },
-    {
-        question: "How does 'machine learning' contribute to cybersecurity?",
-        answers: [
-            "By enhancing internet speed",
-            "By simulating real-world cyber attacks",
-            "By automating the detection of unusual patterns and potential threats",
-            "By blocking access to certain websites"
-        ],
-        correct: 2
     }
-    
 ];
